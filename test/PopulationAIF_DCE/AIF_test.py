@@ -24,7 +24,7 @@ pyplot.plot(time.tolist(), AIF_G.tolist(), 'r')
 
 # set the tolerance to use for this dataset
 
-timeaif, aifdata = np.loadtxt("./Data/PopulationAIF_GeorgiouMRM2018.txt", delimiter='\t', unpack=True)
+timeaif, aifdata = np.loadtxt("./data/PopulationAIF_GeorgiouMRM2018.txt", delimiter='\t', unpack=True)
 timeaif=timeaif*60  # convert time to seconds
 
     # interpolate to a given time series
