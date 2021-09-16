@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 23 11:05:03 2021
-
-@author: JESKAL
+This function tests the population AIFs
 """
 import pytest
 import numpy as np
